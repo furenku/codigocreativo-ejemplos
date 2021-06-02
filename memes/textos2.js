@@ -1,7 +1,7 @@
 let textos2 = [
-    "Eu adipisicing nulla nulla minim fugiat aliquip pariatur officia tempor magna occaecat minim velit tempor.",
-    "Pariatur incididunt do irure nostrud Lorem fugiat aliquip duis magna id est laborum laborum in.",
-    "Sint adipisicing nostrud amet eiusmod sunt adipisicing qui amet pariatur eiusmod fugiat exercitation.",
-    "Irure mollit labore est est tempor.",
-    "Magna in dolor esse ut ad ad mollit.",
+    "t2: Eu adipisicing nulla nulla minim fugiat aliquip pariatur.",
+    "t2: Pariatur incididunt do irure nostrud Lorem fugiat aliquip.",
+    "t2: Sint adipisicing nostrud amet eiusmod sunt adipisicing qui amet.",
+    "t2: Irure mollit labore est est tempor.",
+    "t2: Magna in dolor esse ut ad ad mollit.",
 ]
