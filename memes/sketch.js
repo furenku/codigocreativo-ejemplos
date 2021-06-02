@@ -2,11 +2,31 @@
 
 
 let estadosAnimo = [
-    "ESTADO_ANIMO_1",
-    "ESTADO_ANIMO_2",
-    "ESTADO_ANIMO_3",
-    "ESTADO_ANIMO_4",
-    "ESTADO_ANIMO_5",
+    {
+        nombre: "ESTADO_ANIMO_1",
+        textos: textos1,
+        imagenes: []
+    },
+    {
+        nombre: "ESTADO_ANIMO_2",
+        textos: textos2,
+        imagenes: []
+    },
+    {
+        nombre: "ESTADO_ANIMO_3",
+        textos: textos3,
+        imagenes: []
+    },
+    {
+        nombre: "ESTADO_ANIMO_4",
+        textos: textos4,
+        imagenes: []
+    },
+    {
+        nombre: "ESTADO_ANIMO_5",
+        textos: textos5,
+        imagenes: []
+    },
 ]
 
 let estadoAnimoActual = 0
@@ -58,9 +78,11 @@ function draw() {
             break;
         case "MEME":
             
-            let nombreEstadoAnimo = estadosAnimo[ estadoAnimoActual ]
+            let texto = estadosAnimo[ estadoAnimoActual ].textos[0]
 
-            text( nombreEstadoAnimo, width/2, height/2 )
+            // let nombreEstadoAnimo = estadosAnimo[ estadoAnimoActual ]
+
+            text( texto, width/2, height/2 )
 
             break;
     } 
