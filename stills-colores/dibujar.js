@@ -8,9 +8,9 @@ function dibujarMenuColores() {
     for( let color of promedios ) {
 
         fill(
-            color.r,
-            color.g,
-            color.b,
+            color.r * 255,
+            color.g * 255,
+            color.b * 255,
         )
 
         circle(

@@ -1,3 +1,5 @@
+let gruposCantidad = 4
+
 function obtenerPromedio( imagen ) {
 
     
@@ -21,9 +23,9 @@ function obtenerPromedio( imagen ) {
     }
 
     let promedio = {
-        r: floor(sumas.r / cuantos),
-        g: floor(sumas.g / cuantos),
-        b: floor(sumas.b / cuantos),
+        r: (sumas.r / cuantos) / 255,
+        g: (sumas.g / cuantos) / 255,
+        b: (sumas.b / cuantos) / 255,
     }
 
     return promedio
@@ -34,5 +36,18 @@ function obtenerPromedio( imagen ) {
 
 
 function agruparColores (colores) {
+
+    // con base en una cantidad
+    // de grupos previamente acordada
+
+    // gruposCantidad = 4
+
+    // let rangoTotal = 255
+    let rangoTotal = 1
+    let medida = rangoTotal / gruposCantidad
+
+
+
+
     return []
 } 
