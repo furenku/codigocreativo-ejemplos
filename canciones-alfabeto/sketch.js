@@ -5,18 +5,19 @@ let canciones = {
     "A": [
         {
             nombre: "A: Canción 1",
-            archivo: "./canciones/tal-cancion/audio1.mp4",
-            portada: "./canciones/tal-cancion/portada.jpg",
-            letra: "./canciones/tal-cancion/cancion.txt",
+            archivo: "./canciones/lost-in-the-wind/cancion.mkv",
+            portada: "./canciones/lost-in-the-wind/portada.png",
+            letra: "./canciones/lost-in-the-wind/letra.txt",
             artista: "Nombre de Artista 1",
         },
         {
-            nombre: "A: Canción 2",
-            archivo: "./canciones/tal-cancion/audio2.mp4",
-            portada: "./canciones/tal-cancion/portada.jpg",
-            letra: "./canciones/tal-cancion/cancion.txt",
-            artista: "Nombre de Artista 2",
+            nombre: "A: Canción 1",
+            archivo: "./canciones/angel-of-death/cancion.mkv",
+            portada: "./canciones/angel-of-death/portada.png",
+            letra: "./canciones/angel-of-death/letra.txt",
+            artista: "Nombre de Artista 1",
         },
+        
     ],
     "B": [
         {
