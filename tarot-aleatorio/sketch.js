@@ -6,12 +6,12 @@ let pistas = {
 }
 
 // tenemos 52 cartas
-let cartas = [
-    "./imagenes/carta1.jpg",
-    "./imagenes/carta2.jpg",
-    "./imagenes/carta3.jpg",
-]
+let cartasCantidad = 78
+let estructuraNombreArchivo = "./imagenes/carta__N__.JPG"
 
+let cartas = new Array(78).fill("").map(
+    (e,i)=>estructuraNombreArchivo.replace("__N__",i+1)
+)
 // tenemos elementos para armar textos,
 // divididos en 3 categorias:
 
